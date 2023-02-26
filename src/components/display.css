@@ -1,0 +1,92 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: 'Roboto Mono', monospace;
+
+}
+    #main-display-container{
+    background-color: lightgray;
+    width: 1500px;
+    padding: 50px;
+    position: absolute;
+    top:50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+#logo{
+    font-size: larger;
+   
+    
+
+}
+#logo>span{
+    margin-right: 15px;
+}
+#container2{
+    text-align: center;
+    margin-bottom: 20px;
+    display: flex;
+    
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+#container2 input{
+    border-radius: 5px;
+    padding-left: 15px;
+    background-color: black;
+    height: 40px;
+    width: 500px;
+    font-size: large;
+    color: white;
+    margin-bottom: 40px;
+}
+#add-recipe-btn{
+    background-color: white;
+    width: 40px;
+    height: 40px;
+    border-radius: 5px;
+
+
+}
+
+#container3{
+    width: 100%;
+}
+#img-box{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap:wrap;
+}
+#images{
+    width: 310px;
+    height: 360px;
+    text-align: center;
+    
+}
+#images img{
+    width: 300px;
+    height:350px;
+ 
+   
+}
+#title{
+    position: relative;
+    top: 20%;
+    left: 5%;
+    color: white;
+    font-size: large;
+}
+h4{
+    margin-bottom: 15px;
+}
+#logout-btn{
+    font-size: larger;
+    margin-top: 50px;
+    text-align: right;
+}
+.display-recipe-btn{
+    background-color: lightgray;
+    border: lightgray;
+
+}

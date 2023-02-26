@@ -1,0 +1,45 @@
+*{
+    font-family: 'Roboto Mono', monospace;
+
+}
+#form-main-container{
+    background-color: slateblue;
+    width: 100vw;
+    height: 100vh;
+
+}
+.form-container{
+    width:500px;
+    background-color: lightgray;
+    border: 1px solid rgb(206, 202, 202);
+    border-radius: 5px;
+    padding: 20px 0px;
+    text-align: center;
+    margin: 0 auto;
+    position: relative;
+    top:50px
+    
+}
+input{
+    padding-left: 15px;
+    border: 1px solid rgb(206, 202, 202);
+    border-radius: 2px ;
+}
+#formFile{
+    width:400px;
+}
+.description-box{
+    width: 400px;
+    height: 25px;
+}
+form div{
+    margin-bottom: 10px;
+}
+button{
+    width: 150px;
+    height: 40px;
+    border-radius: 5px;
+    color: lightgray;
+    background-color: slateblue;
+    border:1px solid slateblue
+}
